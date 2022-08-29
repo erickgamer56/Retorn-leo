@@ -1,0 +1,285 @@
+*{
+    margin: 0;
+    padding: 0;
+
+    scrollbar-width: auto;
+    scrollbar-color: #2461f0 #ffffff;
+}
+body::-webkit-scrollbar{
+    width: 8px;
+    background-color: white;
+}
+body::-webkit-scrollbar-thumb{
+    background-color: #2461f0;
+    width: 5px;
+}
+img{
+    background-color: white;
+}
+body{
+    background-color: #2474a2;
+}
+.navbar{
+    width: 100%;
+    position: absolute;
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 60px;
+    box-sizing: border-box;
+    top: 1;
+    z-index: 2;
+}
+.navbar ul {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+}
+.link_a_navbar{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    
+}
+.link_a_navbar i{
+    font-size: 25px;
+}
+.btn_login{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: transparent;
+    width: 140px;
+    height: 45px;
+    border: 1px solid white;
+    color: white;
+    border-radius: 13px;
+}
+.title span{
+    color: white;
+    font-size: 50px;
+    font-family: 'Arial Narrow Bold', sans-serif;
+}
+header{
+
+    background: linear-gradient(rgba(0, 0, 0, 0.363), rgba(0, 0, 0, 0.363)), url(../img/wall.jpg);
+    background-position: center -120px;
+    min-height: 100vh;
+    display: flex;
+    background-size: cover;
+    justify-content: start;
+    align-items: center;
+
+    padding: 0 60px;
+    box-sizing: border-box;
+}
+header::before{
+    content: '';
+    position: absolute;
+    right: 10px;
+    width: 1000px;
+    height: 600px;
+    background-image: url(../img/undraw_nature_benefits_re_kk70.svg);
+    background-size: cover;
+    filter:brightness(0.75);
+}
+.text_header{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    z-index: 2;
+
+}
+.text_header h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 70px;
+    color: white;
+
+}
+.text_header p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 20px;
+    max-width: 680px;
+    text-align: justify;
+}
+main{
+    display: flex;
+    padding: 0px 50px;
+    flex-direction: column;
+    align-items: center;
+    transform: translateY(-60px);
+
+}
+.contei_main{
+    background-color: #0F171E;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 50px;
+    box-sizing: border-box;
+    gap: 30px;
+    border-radius: 30px;
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+
+.container_main{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 20px;
+}
+.title_main{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 3px 5px 5px #474747;
+}
+.imgs_main{
+    width: calc(100% / 3 - 15px);
+    height: 290px;
+    background-size: cover;
+    border-radius: 20px;
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+    background-position: center;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.black{
+    height: 552px;
+    width: 450px;
+    flex: none;
+}
+.imgs_main img{
+    width: 150px;
+    height: 150px;
+    max-width: 100%;
+}
+.more_main{
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-image: linear-gradient(to right, #0088CE 0%, #00D9D9 51%, #0088CE 100%);
+    background-size: 200% auto;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+.more_main i{
+    font-size: 30px;
+}
+.about_product{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 50px;
+    gap: 50px;
+    min-height: 100vh;
+}
+.about_product .img_about{
+    width: 450px;
+    max-width: 100%;
+    border-radius: 30px;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+.text_about{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+}
+.text_about p {
+    font-size: 30px;
+}
+.text_about h1 {
+    text-align: start;
+    font-size: 50px;
+}
+footer{
+    min-height: 330px;
+    background-color: #0088CE;
+    border-radius: 70px 70px 0 0;
+    display: flex;
+    justify-content: start;
+    align-items:center;
+    flex-direction: column;
+    padding:  0 50px;
+    box-sizing: border-box;
+}
+.init_footer{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+
+    color: white;
+    justify-content: space-between;
+}
+.init_footer h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.text_footer div{
+    flex-direction: column;
+    display: flex;
+    gap: 10px;
+}
+.text_footer p{
+    max-width: 300px;
+    text-align: justify;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.title_footer{
+    max-width: 300px;
+    text-align: justify;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.links_footer{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    gap: 10px;
+}
+.coluna_footer{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.coluna_footer li{
+    list-style-type: none;
+}
+.links_of_footer{
+    color: white;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+.links_of_footer:hover{
+    filter: brightness(0.95);
+}
+.menu_side{
+    display: none;
+}
+.menu_side i{
+    color: white;
+    font-size: 50px;
+}
