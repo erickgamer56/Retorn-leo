@@ -8,12 +8,53 @@
     <link rel="stylesheet" href="assets/css/index.css">
     <link rel="stylesheet" href="assets/css/media.css">
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <meta name="description" content="O Melhor Para Você">
+    <meta property="og:image" content="https://cdn.discordapp.com/attachments/1008857228473802873/1013963872736133131/amostra.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
 </head>
 <body>
-    <div class="menu_side">
-
-    </div>
     <nav class="navbar">
+        <input type="checkbox" id="menu_side">
+        <div class="menu_side_box menu_side" >
+            <div class="init_of_side">
+                <div class="title">
+                    <span>Retornóleo</span>
+                </div>
+                <ul>
+                    <li><a href="#"><input class="btn_login" type="button" value="Fazer Login"> </a></li>
+                    <li>
+                        <label for="menu_side">
+                            <span class="menu_side">
+                                <i class='bx bx-menu'></i>
+                            </span>
+                        </label>
+                    </li>
+                </ul>
+            </div>
+            <div class="opt_menu_side">
+                <ul>
+                    <li>
+                        <a href="#" class="link_a_navbar_side">
+                            <i class='bx bxs-home-alt-2'></i>
+                            Inicio
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#Sobre" class="link_a_navbar_side">
+                            <i class='bx bx-question-mark'></i></i>
+                            Sobre
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="link_a_navbar_side">
+                            <i class='bx bxs-shopping-bag-alt'></i>
+                            Loja
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
         <div class="title">
             <span>Retornóleo</span>
         </div>
@@ -26,7 +67,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="#" class="link_a_navbar">
+                    <a href="#Sobre" class="link_a_navbar">
                         <i class='bx bx-question-mark'></i></i>
                         Sobre
                     </a>
@@ -39,7 +80,7 @@
                 </li>
                 <li><a href="#"><input class="btn_login" type="button" value="Fazer Login"> </a></li>
                 <li>
-                    <label for="">
+                    <label for="menu_side">
                         <span class="menu_side">
                             <i class='bx bx-menu'></i>
                         </span>
@@ -48,7 +89,7 @@
             </ul>
         </div>
     </nav>
-    <header>
+    <header id="Menu">
         <div class="text_header">
             <h1>
                 Olá Pessoa !
@@ -78,7 +119,7 @@
             </a>
         </div>
     </main>
-    <section class="about_product">
+    <section class="about_product" id="Sobre">
         <div class="black">
             <img src="assets/img/azulao.jpg" class="img_about">
         </div>
@@ -116,5 +157,6 @@
                 <li><a href="#" class="links_of_footer"><i class='bx bxl-whatsapp' ></i>Whatsapp</a></li>            </ul>
         </div>
     </footer>
+    <script src="assets/js/index.js"></script>
 </body>
 </html>
