@@ -1,0 +1,18 @@
+header{
+    justify-content: center;
+    height: calc(90vh - 140px);
+}
+.text_header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text_header p{
+    text-align: center;
+}
+.text_header h1{
+    text-align: center;
+}
+.more_main{
+    margin-top: 20px;
+}
