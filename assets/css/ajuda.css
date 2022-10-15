@@ -1,0 +1,11 @@
+.ori_inp{
+    width: 100%;
+    height: 45px;
+    outline: none;
+    border-radius: 999px;
+    padding: 0 10px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+    border: none;
+}

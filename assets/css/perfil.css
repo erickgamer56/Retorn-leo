@@ -1,0 +1,64 @@
+.show{
+    position: absolute;
+    right: 50px;
+    bottom: 20px;
+    background-color: white;
+    width: 380px;
+    height: 230px;
+    border-radius: 20px;
+    transition: transform .6s ease , opacity .6s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+    transform: translateY(-90px);
+    opacity: 0;
+}
+.showshow{
+    transform: translateY(0px);
+    opacity: 1;
+}
+.action{
+    display: flex;
+    gap: 15px;
+}
+.action input{
+    border: none;
+    width: 140px;
+    height: 40px;
+    cursor: pointer;
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+.init{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+.right{
+    overflow: hidden;
+}
+.formchange{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.name{
+    background-color: #172122;
+    border: none;
+    height: 60px;
+    font-size: 20px;
+}
+.destruir{
+    background-color: red;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 15px;
+    cursor: pointer;
+}

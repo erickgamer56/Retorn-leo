@@ -1,0 +1,119 @@
+#init{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.init_box{
+    border-radius: 25px;
+    width: 745px;
+    min-height: 430px;
+    background-color: #131313;
+    z-index: 2;
+    padding: 40px;
+    box-sizing: border-box;
+    flex-direction: column;
+}
+.init1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.init1 h1{
+    font-size: 30px;
+    color: white;
+    font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.init1 p{
+    color: white;
+    font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.foot_initpage{
+    margin-top: 20px;
+}
+.sty input{
+    width: 210px;
+    height: 40px;
+    border-radius: 14px;
+    background-color: transparent;
+    color: white;
+    outline: none;
+    border: 1px solid white;
+    transition: color .3s ease , border .3s ease;
+}
+.s1 input:hover{
+    border: 1px solid red;
+    cursor: pointer;
+    color: rgb(187, 15, 15);
+}
+.s2 input:hover{
+    border: 1px solid rgb(49, 223, 14);
+    cursor: pointer;
+    color: rgb(55, 187, 15);
+}
+.obs{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.name{
+    color: white;
+    border-radius: 13px;
+    border: 1px solid white;
+    background-color: transparent;
+    width: 100%;
+    height: 43px;
+    padding: 10px;
+    box-sizing: border-box;
+    outline: none;
+}
+.name:valid{
+    border: 1px solid rgb(49, 223, 14);
+}
+#file{
+    display: none;
+}
+.foto{
+    width: 135px;
+    height: 135px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    overflow: hidden;
+    flex: none;
+}
+.foto img{
+    flex: none;
+    object-fit: cover;
+    object-position: center center;
+    width: 100%;
+    height: 100%;
+}
+#uimg{
+    display: none;
+}
+.foto i{
+    color: black;
+    font-size: 70px;
+}
+.lol{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(17,71,156,1) 0%, rgba(0,155,255,1) 100%);
+    cursor: pointer;
+    border-radius: 20px;
+    padding: 13px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 13px;
+}
+.lol h2{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}

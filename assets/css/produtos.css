@@ -1,0 +1,45 @@
+.img_produto{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+.flex{
+    display: flex;
+    gap: 10px;
+}
+.texts{
+    position: relative;
+}
+.nome{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    text-transform: capitalize;
+}
+.valor{
+    font-size: 60px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+}
+.valor .oter{
+    font-size: 30px;
+}
+.msg{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 600px;
+    text-align: justify;
+}
+.btn{
+    color: white;
+    background-color: transparent;
+    position: absolute;
+    bottom: 0;
+    height: 55px;
+    border: 1px solid white;
+    padding: 0 20px;
+    font-weight: bold;
+    font-size: 30px;
+    cursor: pointer;
+}
